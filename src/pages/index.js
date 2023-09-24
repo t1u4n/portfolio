@@ -5,6 +5,7 @@ import AnimatedText from '@/components/AnimatedText'
 import Link from 'next/link'
 import { LinkArrow } from '@/components/Icons'
 import Layout from '@/components/layout'
+import UIUC from '../../public/images/pngs/uiuc.png'
 
 export default function Home() {
   return (
@@ -20,10 +21,9 @@ export default function Home() {
               <Image src={profilePic} alt='takemiul' className='w-full h-auto' />
             </div>
             <div className='w-3/5 flex-col items-center self-center'>
-              <AnimatedText text="sde UIUCer" className='!text-6xl !text-left' />
+              <AnimatedText text="Coder UIUCer Amazonian" className='!text-6xl !text-left' />
               <p className='my-4 text-base font-medium'>
-                I’m currently pursuing my M.Eng in Electrical and Computer Engineering at the University of Illinois Urbana-Champaign (UIUC). My journey in the tech world has been fulfilling, with contributions to the Tovala Automated Test Engine in a significant capstone project with Tovala and internships as a Software Development Engineer (SDE) with both Yahoo Core Mail Backend Team and the AWS Amplify Hosting Team.
-                Proficient in Go, Java, C, C++, JavaScript, and Python, I’m always eager to take on new challenges. I’m actively seeking full-time SDE opportunities for 2024 and would love to connect with professionals in the field. Let’s explore how we can collaborate!
+              Let’s explore how we can collaborate!
               </p>
               <div className='flex items-center self-start mt-2'>
                 <Link href="/resume.pdf" target='_blank'
@@ -40,6 +40,11 @@ export default function Home() {
             </div>
           </div>
         </Layout>
+
+        <div className='absolute right-8 bottom-4 inline-block w-36'>
+          <Image src={UIUC} alt='UIUC' className='w-full h-auto' />
+        </div>
+        
       </main>
     </>
   )
