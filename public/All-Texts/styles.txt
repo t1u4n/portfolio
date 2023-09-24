@@ -58,3 +58,6 @@ screens: {
 },
 
 backgroundColor:["#121212", "rgba(131,58,180,1)","rgba(253,29,29,1)","rgba(252,176,69,1)","rgba(131,58,180,1)", "#121212"],
+
+cyberpunkColor1: ["#EBA4D2", "#6AAFF2", "#CC54D0", "#B74E6A", "#4A42AE", "#21174B"]
+cyberpunkColor2: ["#97E3FE", "#F394F8", "#818DE0", "#9A53D0", "#2843AD", "#0F1546"]
