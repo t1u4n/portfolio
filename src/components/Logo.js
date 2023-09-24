@@ -19,7 +19,7 @@ const Logo = () => {
             }
         }}
         >
-            TIl
+            TiL
         </MotionLink>
     </div>
   )

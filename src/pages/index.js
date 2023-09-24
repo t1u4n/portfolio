@@ -2,6 +2,9 @@ import Layout from '@/components/layout'
 import Head from 'next/head'
 import Image from 'next/image'
 import profilePic from "../../public/images/profile/profile-pic-2.png"
+import AnimatedText from '@/components/AnimatedText'
+import Link from 'next/link'
+import { LinkArrow } from '@/components/icons'
 
 export default function Home() {
   return (
@@ -16,15 +19,24 @@ export default function Home() {
             <div className='w-1/3'>
               <Image src={profilePic} alt='takemiul' className='w-full h-auto' />
             </div>
-            <div className='w-3/5'>
-              <h1>
-                ECE @ UIUC 24' | SDE Intern @ AWS Amplify Hosting | ex SDE Intern @ Yahoo Mail
-              </h1>
-              <br />
-              <p>
+            <div className='w-3/5 flex-col items-center self-center'>
+              <AnimatedText text="sde UIUCer" className='!text-6xl !text-left' />
+              <p className='my-4 text-base font-medium'>
                 I’m currently pursuing my M.Eng in Electrical and Computer Engineering at the University of Illinois Urbana-Champaign (UIUC). My journey in the tech world has been fulfilling, with contributions to the Tovala Automated Test Engine in a significant capstone project with Tovala and internships as a Software Development Engineer (SDE) with both Yahoo Core Mail Backend Team and the AWS Amplify Hosting Team.
                 Proficient in Go, Java, C, C++, JavaScript, and Python, I’m always eager to take on new challenges. I’m actively seeking full-time SDE opportunities for 2024 and would love to connect with professionals in the field. Let’s explore how we can collaborate!
-                </p>
+              </p>
+              <div className='flex items-center self-start mt-2'>
+                <Link href="/resume.pdf" target='_blank'
+                className='flex items-center bg-dark text-light p-2.5 px-6
+                rounded-lg text-lg font-semibold hover:bg-light hover:text-dark
+                border-2 border-solid border-transparent hover:border-dark
+                '
+                download={true}
+                >Resume <LinkArrow className={"w-6 ml-1"} /></Link>
+                <Link href="mailto:tiluan1999@hotmail.com" target='_blank'
+                className='ml-4 text-lg font-medium capitalize text-dark underline'
+                >Contact</Link>
+              </div>
             </div>
           </div>
         </Layout>
