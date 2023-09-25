@@ -6,6 +6,7 @@ import huskyPic from '../../public/images/profile/husky.png'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
 import Skills from '@/components/Skills'
+import Experience from '@/components/Experience'
 
 const quote = {
     initial: {
@@ -106,6 +107,8 @@ const about = () => {
                 </div>
 
                 <Skills />
+
+                <Experience />
             </Layout>
         </main>
     </>
