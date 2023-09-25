@@ -4,7 +4,7 @@ import profilePic from "../../public/images/profile/profile-pic-2.png"
 import AnimatedText from '@/components/AnimatedText'
 import Link from 'next/link'
 import { LinkArrow } from '@/components/Icons'
-import Layout from '@/components/layout'
+import Layout from '@/components/Layout'
 import UIUC from '../../public/images/pngs/uiuc.png'
 
 export default function Home() {
