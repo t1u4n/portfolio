@@ -23,7 +23,7 @@ const Details = ({position, company, companyLink, time, address, workContents, c
                 {time} | {address}
             </span>
             <ul>
-                {workContents.map((work, _) => {
+                {workContents.map((work, index) => {
                     return <li className='mt-2'>{work}</li>
                 })}
             </ul>
