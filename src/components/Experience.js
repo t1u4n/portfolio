@@ -24,7 +24,7 @@ const Details = ({position, company, companyLink, time, address, workContents, c
             </span>
             <ul>
                 {workContents.map((work, index) => {
-                    return <li className='mt-2'>{work}</li>
+                    return <li className='mt-2' key={index}>{work}</li>
                 })}
             </ul>
         </motion.div>
