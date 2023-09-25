@@ -2,11 +2,12 @@ import React from 'react'
 import Head from 'next/head'
 import AnimatedText from '@/components/AnimatedText'
 import Layout from '@/components/Layout'
-import huskyPic from '../../public/images/profile/husky.png'
+import profilePic from '../../public/images/profile/profile-pic-3.png'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
 import Skills from '@/components/Skills'
 import Experience from '@/components/Experience'
+import Education from '@/components/Education'
 
 const quote = {
     initial: {
@@ -60,7 +61,7 @@ const about = () => {
                     <div className='col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark
                     bg-light p-8
                     '>
-                        <Image src={huskyPic} alt='TAKEMiuL' className='w-full h-auto rounded-2xl' />
+                        <Image src={profilePic} alt='TAKEMiuL' className='w-full h-auto rounded-2xl' />
                     </div>
 
                     <motion.div className='col-span-2 flex flex-col items-end justify-between'
@@ -109,6 +110,8 @@ const about = () => {
                 <Skills />
 
                 <Experience />
+
+                <Education />
             </Layout>
         </main>
     </>

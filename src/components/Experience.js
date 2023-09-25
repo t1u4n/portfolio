@@ -57,7 +57,7 @@ const Experience = () => {
                 position={'Software Dev Engineer Intern'}
                 company={'AWS'}
                 companyLink={'https://aws.amazon.com/'}
-                time={'Aug 2023 - Nov 2023'}
+                time={'Aug 2023 - Present'}
                 address={'Seattle, WA'}
                 workContents={['Leading the enhancement of Access Log experience for AWS Amplify Hosting using Java and TypeScript, targeting issues of log retrieval latency and timeouts for Apps deployed on Amazon CloudFront\n',
                 'Implementing real-time Access Log streaming using Amazon Kinesis Data Stream and developing a Amazon Kinesis Data Stream Consumer that runs on AWS Fargate, designed to parse real-time Access Log and push them to Amazon CloudWatch for advanced log filtering, analysis, and querying in real-time\n',
