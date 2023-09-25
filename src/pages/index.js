@@ -21,7 +21,7 @@ export default function Home() {
               <Image src={profilePic} alt='takemiul' className='w-full h-auto' />
             </div>
             <div className='w-3/5 flex-col items-center self-center'>
-              <AnimatedText text="Coder UIUCer Amazonian" className='!text-6xl !text-left' />
+              <AnimatedText text="Coder | Amazonian | Uaena | UIUCer" className='!text-4xl !text-left' />
               <p className='my-4 text-base font-medium'>
               Let’s explore how we can collaborate!
               </p>
@@ -32,7 +32,7 @@ export default function Home() {
                 border-2 border-solid border-transparent hover:border-dark
                 '
                 download={true}
-                >Resume <LinkArrow className={"w-6 ml-1"} /></Link>
+                >Resume<LinkArrow className={"w-6 ml-1"} /></Link>
                 <Link href="mailto:tiluan1999@hotmail.com" target='_blank'
                 className='ml-4 text-lg font-medium capitalize text-dark underline'
                 >Contact</Link>
