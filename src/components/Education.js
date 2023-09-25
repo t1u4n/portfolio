@@ -2,7 +2,7 @@ import React, { useRef } from 'react'
 import { useScroll, motion } from 'framer-motion'
 import LiIcon from './LiIcon'
 
-const Details = ({degree, school, schoolLink, time, address, relativeCourses, schoolColor}) => {
+const Details = ({degree, school, schoolLink, time, address, schoolColor}) => {
     const ref = useRef(null)
     return <li ref={ref} className='my-8 first:mt-0 last:bt-0 w-[60%] mx-auto flex flex-col items-center justify-between'>
         <LiIcon reference={ref} />
@@ -23,11 +23,6 @@ const Details = ({degree, school, schoolLink, time, address, relativeCourses, sc
             <span className='capitalize font-medium text-dark/75'>
                 {time} | {address}
             </span>
-            <ul>
-                {relativeCourses.map((course, _) => {
-                    return <li className='mt-2'>{course}</li>
-                })}
-            </ul>
         </motion.div>
     </li>
 }
@@ -60,7 +55,6 @@ const Education = () => {
                 schoolLink={'https://illinois.edu/'}
                 time={'Aug 2022 - May 2024 (Expected)'}
                 address={'Champaign, IL'}
-                relativeCourses={[]}
                 schoolColor={'text-uiuc'}
                 />
                 
@@ -70,7 +64,6 @@ const Education = () => {
                 schoolLink={'https://www.anu.edu.au/'}
                 time={'Jul 2019 - Jul 2021'}
                 address={'Canberra, Australia'}
-                relativeCourses={[]}
                 schoolColor={'text-anu'}    
                 />
 
@@ -80,7 +73,6 @@ const Education = () => {
                 schoolLink={'https://www.sdu.edu.cn/'}
                 time={'Sep 2017 - Jul 2021'}
                 address={'Shandong, China'}
-                relativeCourses={[]}
                 schoolColor={'text-sdu'}
                 />
             </ul>
