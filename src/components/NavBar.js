@@ -27,16 +27,11 @@ const NavBar = () => {
         <nav>
             <CustomLink href={"/"} title={"Home"} className='mr-8' />
             <CustomLink href={"/about"} title={"About"} className='mx-8'/>
-            <CustomLink href={"/projects"} title={"Projects"} className='mx-8' />
-            <CustomLink href={"/projects"} title={"Articles"} className='ml-8' />
+            <CustomLink href={"/education"} title={"Education & Skills"} className='mx-8' />
+            <CustomLink href={"/projects"} title={"Projects"} className='ml-8' />
         </nav>
         <nav className='flex items-center justify-center flex-wrap'>
-            <motion.a href={"https://github.com/tiluan1999"} target={"_blank"}
-            whileHover={{y: -2}}
-            whileTap={{scale: 0.9}}
-            className='w-6 mr-5'
-            ><GithubIcon /></motion.a>
-            <motion.a href={"https://www.linkedin.com/in/tian-luan/"} target={"_blank"}
+            <motion.a href={"https://www.linkedin.com/in/karen-cc/"} target={"_blank"}
             whileHover={{y: -2}}
             whileTap={{scale: 0.9}}
             className='w-6 mr-5'

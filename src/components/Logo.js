@@ -19,7 +19,7 @@ const Logo = () => {
             }
         }}
         >
-            TiuL
+            CYR
         </MotionLink>
     </div>
   )

@@ -37,8 +37,8 @@ const Education = () => {
     )
 
   return (
-    <div className='my-64'>
-        <h2 className='font-bold text-8xl mb-32 w-full  text-center'>
+    <div className='my-48'>
+        <h2 className='font-bold text-8xl mb-32 w-full text-center'>
             Education
         </h2>
 
@@ -50,25 +50,16 @@ const Education = () => {
 
             <ul className='w-full flex flex-col items-start justify-between ml-2'>
                 <Details 
-                degree={'Master of Engineering in Electrical and Computer Engineering'}
-                school={'University of Illinois at Urbana-Champaign'}
-                schoolLink={'https://illinois.edu/'}
-                time={'Aug 2022 - May 2024 (Expected)'}
-                address={'Champaign, IL'}
-                schoolColor={'text-uiuc'}
-                />
-                
-                <Details 
-                degree={'Bachelor of Advanced Computing (Honours)'}
-                school={'Australian National University'}
-                schoolLink={'https://www.anu.edu.au/'}
-                time={'Jul 2019 - Jul 2021'}
-                address={'Canberra, Australia'}
-                schoolColor={'text-anu'}    
+                degree={'MS in Computer Science'}
+                school={'Northeastern University'}
+                schoolLink={'https://northeastern.edu/'}
+                time={'Sep 2022 - Dec 2024 (Expected)'}
+                address={'Bos, MA'}
+                schoolColor={'text-neu'}
                 />
 
                 <Details 
-                degree={'Bachelor of Engineering in Computer Science'}
+                degree={'BE in Computer Science'}
                 school={'Shandong University'}
                 schoolLink={'https://www.sdu.edu.cn/'}
                 time={'Sep 2017 - Jul 2021'}

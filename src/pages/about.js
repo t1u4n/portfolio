@@ -5,9 +5,6 @@ import Layout from '@/components/Layout'
 import profilePic from '../../public/images/profile/profile-pic-3.png'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
-import Skills from '@/components/Skills'
-import Experience from '@/components/Experience'
-import Education from '@/components/Education'
 
 const quote = {
     initial: {
@@ -40,28 +37,32 @@ const about = () => {
   return (
     <>
         <Head>
-            <title>TAKEMiuL | About Page</title>
+            <title>Karen C. | Education & Skills Page</title>
             <meta name='description' content='Developer, amazonian'></meta>
         </Head>
         <main className='flex w-full flex-col items-center justify-center'>
             <Layout className='pt-16'>
-                <AnimatedText text={"Talk is cheap, show me the code."} className='mb-16 font-semibold !text-6xl'></AnimatedText>
+                <AnimatedText text={"A girl should be two things: who and what she wants."} className='mb-16 font-semibold !text-5xl'></AnimatedText>
                 <div className='grid w-full grid-cols-8 gap-16'>
                     <div className='col-span-3 flex flex-col items-start justify-start'>
                         <h2 className='mb-4 text-lg font-bold uppercase text-dark/75'>About Me</h2>
                         <p className='my-4 font-medium'>
-                        I’m currently pursuing my M.Eng in Electrical and Computer Engineering at the University of Illinois Urbana-Champaign (UIUC). My journey in the tech world has been fulfilling, with contributions to the Tovala Automated Test Engine in a significant capstone project with Tovala and internships as a Software Development Engineer (SDE) with both Yahoo Core Mail Backend Team and the AWS Amplify Hosting Team.
+                        With studying in Computer Science from Northeastern University and a Bachelor degree from Shandong University, I have acquired a diverse skill set and profound knowledge in various programming languages and development tools.
+                        </p>
+
+                        <p className='my-4 font-medium'>
+                        My extensive technical skills include proficiency in Java, Python, C, C++, JavaScript/TypeScript, and Go, with notable experience in web development frameworks such as Next.js and React.js. I have a solid understanding of various development tools and practices, including MongoDB, CI/CD, RESTful API, AWS, and Firebase. My approach to development is deeply rooted in clean code practices, comprehensive documentation, and robust testing.
                         </p>
 
                         <p className='font-medium'>
-                        Proficient in Go, Java, C, C++, JavaScript, and Python, I’m always eager to take on new challenges. I’m actively seeking full-time SDE opportunities for 2024 and would love to connect with professionals in the field. Let’s explore how we can collaborate!
+                        Driven by a fervor for technology and a commitment to excellence, I am eager to bring my analytical acumen, technical proficiency, and innovative thinking to solve complex problems and contribute to organizational success.
                         </p>
                     </div>
 
                     <div className='col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark
-                    bg-light p-8
+                    bg-light p-4
                     '>
-                        <Image src={profilePic} alt='TAKEMiuL' className='w-full h-auto rounded-2xl' />
+                        <Image src={profilePic} alt='Karen C.' className='w-full h-auto rounded-2xl' />
                     </div>
 
                     <motion.div className='col-span-2 flex flex-col items-end justify-between'
@@ -82,36 +83,18 @@ const about = () => {
                         variants={singleStageGroup}
                         >
                             <span className='text-xl font-medium capitalize text-dark/75'>
-                                B.S. Advanced Computing @
+                                M.S. Computer Science @
                             </span>
-                            <h2 className='inline-block text-7xl font-bold'>ANU</h2>
+                            <h2 className='inline-block text-7xl font-bold'>NEU</h2>
                         </motion.div>
 
                         <motion.div className='flex flex-col items-end justify-center mb-4'
                         variants={singleStageGroup}
                         >
-                            <span className='text-xl font-medium capitalize text-dark/75'>
-                                M.Eng. ECE @
-                            </span>
-                            <h2 className='inline-block text-7xl font-bold'>UIUC</h2>
-                        </motion.div>
-
-                        <motion.div className='flex flex-col items-end justify-center mb-4'
-                        variants={singleStageGroup}
-                        >
-                            <span className='text-xl font-medium capitalize text-dark/75'>
-                                SDE Intern @
-                            </span>
-                            <h2 className='inline-block text-7xl font-bold'>AWS</h2>
+                            <h2 className='inline-block text-7xl font-bold'>Next?</h2>
                         </motion.div>
                     </motion.div>
                 </div>
-
-                <Skills />
-
-                <Experience />
-
-                <Education />
             </Layout>
         </main>
     </>

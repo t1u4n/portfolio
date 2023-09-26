@@ -32,15 +32,15 @@ const Skills = () => {
             <Skill name='Python' x="5vw" y="-10vw" />
             <Skill name='JavaScript/TypeScript' x="5vw" y="12vw" />
             <Skill name='C/C++' x="-5vw" y="8vw" />
-            <Skill name='Rust' x="-20vw" y="20vw" />
-            <Skill name='Kafka' x="20vw" y="-9vw" />
+            <Skill name='Express' x="-20vw" y="20vw" />
+            <Skill name='Bootstrap' x="20vw" y="-9vw" />
             <Skill name='AWS' x="11vw" y="5vw" />
             <Skill name='GCP' x="-21vw" y="-13vw" />
-            <Skill name='OpenTelemetry' x="-5vw" y="-5vw" />
-            <Skill name='Kubernetes' x="-8vw" y="-14vw" />
-            <Skill name='Docker' x="8vw" y="19vw" />
+            <Skill name='Node.js' x="-5vw" y="-5vw" />
+            <Skill name='Redux' x="-8vw" y="-14vw" />
+            <Skill name='Git' x="8vw" y="19vw" />
             <Skill name='SpringBoot' x="25vw" y="7vw" />
-            <Skill name='Guice' x="-25vw" y="10vw" />
+            <Skill name='REST API' x="-25vw" y="10vw" />
             <Skill name='Flask' x="15vw" y="-20vw" />
             <Skill name='SQL' x="-15vw" y="13vw" />
             <Skill name='HTML' x="-5vw" y="25vw" />
@@ -50,7 +50,7 @@ const Skills = () => {
             <Skill name='Next.js' x="-35vw" y="-5vw" />
             <Skill name='MongoDB' x="33vw" y="-10vw" />
             <Skill name='MySQL' x="28vw" y="-3vw" />
-            <Skill name='Linux' x="-25vw" y="-10vw" />
+            <Skill name='CI/CD' x="-25vw" y="-10vw" />
             <Skill name='Tailwind CSS' x="-35vw" y="15vw" />
 
         </div>

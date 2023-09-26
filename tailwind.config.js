@@ -21,6 +21,7 @@ module.exports = {
         sdu: "#800000",
         anu: "#FFD700",
         uiuc: "#FF6600",
+        neu: "#FF0000",
       },
       animation: {
         'spin-slow': 'spin 8s linear infinite'
